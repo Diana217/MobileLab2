@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewProducer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producer"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewProducer"
+        android:layout_marginTop="8dp"
+        android:text="Model"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewScreenDiagonal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewModel"
+        android:layout_marginTop="8dp"
+        android:text="Screen Diagonal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewScreenDiagonal"
+        android:layout_marginTop="8dp"
+        android:text="Address"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAddress"
+        android:layout_marginTop="8dp"
+        android:text="Longitude"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLongitude"
+        android:layout_marginTop="8dp"
+        android:text="Latitude"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewLatitude"
+        android:layout_marginTop="8dp"
+        android:text="Price"
+        android:textSize="16sp" />
+
+</RelativeLayout>
